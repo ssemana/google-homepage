@@ -21,7 +21,11 @@ li{
 
 .imgresize {
     max-width: 100%;
+    border:  0;
+    border-radius:  50%;
     height:  auto;
+    height:  32px;
+    width: 32px;
 }
 
 .buttona{
@@ -37,7 +41,50 @@ li{
     padding:  5px;
 }
 
-
-
+/*Search Bar*/
+.searchspace{
+    color:  transparent;
+    flex:  100%;
+    white-space:  pre;
+    height: 34px;
+}
+.searchbar{
+    width:  100%;
+    text-align:  center;
+    background-color: transparent;
+    border:  none;
+    margin: 0;
+    padding 0;
+    color:  rgba(0,0,0,.87);
+    word-wrap:  break-word;
+    display:  flex;
+    flex:  100%
+    -webkit-tap-highlight-color: transparent;
+    margin-top:  -37px;
+    height:  34px;
+    font-size: 16px
+}
+/*bottom buttons*/
+.googlesearch{
+    background-color:  #f8f9fa;
+    border:  1 px solid #f8f9fa;
+    border-radius:  4px;
+    color:  #3c4043;
+    font-family:  Roboto,arial,sans-serif;
+    font-size:  14px;
+    margin:  11px 4px;
+    padding:  0 16px
+    line-height:  27px;
+    height:  36px;
+    min-width:  54px
+    text-align:  center;
+    cursor:  pointer;
+    user-select:  none;
+}
+.middlepromo{
+    font-size:  small;
+    margin-bottom:  32px;
+    text-align:  center;
+}
 
 }
