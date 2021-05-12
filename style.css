@@ -1,14 +1,40 @@
+/* General Effects */
+body{
+    font-family:  arial, sans-serif;
+    background-color: white;
+
+}
+/*Nav Bar*/
+
+ul{
+    list-style-type:  none;
+    margin: 0;
+    padding:  0;
+}
+li{
+    display:  inline;
+}
 .imgcenter {
     margin:  auto;
     display:  block;
 }
-.flex-container {
-    display:  flex;
-    flex-direction: row;
 
 .imgresize {
     max-width: 100%;
     height:  auto;
+}
+
+.buttona{
+    flex-shrink:  0;
+    box-sizing:  border-box;
+    text-decoration:  none;
+    color: #222222;
+}
+
+.about{
+    font:  14px arial, sans-serif;
+    margin:  0px, 5px, 0px, 15px; 
+    padding:  5px;
 }
 
 
